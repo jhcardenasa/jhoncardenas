@@ -51,7 +51,7 @@ BRUSHED.slider = function(){
 		// Functionality
 		slideshow               :   1,			// Slideshow on/off
 		autoplay				:	1,			// Slideshow starts playing automatically
-		start_slide             :   0,			// Start slide (0 is random)
+		start_slide             :   1,			// Start slide (0 is random)
 		stop_loop				:	0,			// Pauses slideshow on last slide
 		random					: 	0,			// Randomize slide order (Ignores start slide)
 		slide_interval          :   12000,		// Length between transitions
@@ -77,10 +77,10 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/slider1.jpg', title : '<div class="slide-content">Jhon Cardenas</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/slider2.jpg', title : '<div class="slide-content">Jhon Cardenas</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/slider3.jpg', title : '<div class="slide-content">Jhon Cardenas</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/slider4.jpg', title : '<div class="slide-content">Jhon Cardenas</div>', thumb : '', url : ''}  
+											{image : '_include/img/slider-images/slider1.jpg', title : '<div class="slide-content">Jhon Cardenas<h2 style="margin-top:-80px; color:#8BC0E9;"><strong>Desarrollo Web</strong></h2></div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/slider2.jpg', title : '<div class="slide-content">Jhon Cardenas<h2 style="margin-top:-80px; color:#B27B00;"><strong>Aplicaciones Moviles</strong></h2></div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/slider3b.jpg', title : '<div class="slide-content">Jhon Cardenas<h2 style="margin-top:-80px; color:#FFE604;"><strong>Posicionamiento En Buscadores</strong></h2></div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/slider4.jpg', title : '<div class="slide-content">Jhon Cardenas<h2 style="margin-top:-80px; color:#D6EAFF;"><strong>Arquitectura de Software</strong></h2></div>', thumb : '', url : ''}  
 									],
 									
 		// Theme Options			   
